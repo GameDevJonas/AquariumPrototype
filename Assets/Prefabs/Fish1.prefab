@@ -26,7 +26,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3484187509933266515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00000024317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5750287713760523820}
@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -0.000015259, y: 7.3}
+  m_SizeDelta: {x: 334.69, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2444632325298421765
 CanvasRenderer:
@@ -65,8 +65,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -91,15 +91,15 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45.99
+  m_fontSizeBase: 45.99
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 258
-  m_characterSpacing: 0
+  m_textAlignment: 514
+  m_characterSpacing: 4.14
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -213,6 +213,7 @@ MonoBehaviour:
   - {fileID: -927199367670048503, guid: dd02eea8d907c1549951ba0914e6b1a7, type: 3}
   - {fileID: -927199367670048503, guid: a658225b37d2b464d9ed2f5427972406, type: 3}
   - {fileID: -927199367670048503, guid: 46b567fe3b18ec441bfe6fd5028f5d66, type: 3}
+  fishIAm: 0
   personalities:
   - Gay
   - Creative
@@ -228,6 +229,15 @@ MonoBehaviour:
   myPersonality: 
   myPersDesc: 
   cameraMan: {fileID: 0}
+  hungerRate: 0
+  affectionRate: 0
+  maxHunger: 0
+  currentHunger: 0
+  currentAffection: 0
+  sellPrice: 0
+  newSellPrice: 0
+  affectionTimer: 0
+  hungerTimer: 0
 --- !u!135 &6678049565253532723
 SphereCollider:
   m_ObjectHideFlags: 0
