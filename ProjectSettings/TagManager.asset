@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FishSpawner
   - Graveyard
+  - Shop
   layers:
   - Default
   - TransparentFX

@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db6acfd28a68573419c301fe84ed81c8, type: 3}
   m_Name: BasicFeesh1
   m_EditorClassIdentifier: 
-  name: 
+  fishName: Basic Fish
+  description: A normal and basic fish! Comes in a variety of species. They seem
+    to grow affectionate at normal speed and has a normal sell price. They use a
+    surprising amount of energy to swim even though they're quite slow.
   daFish: {fileID: 5935161914509803413, guid: 9137def7cdda0f24291c0651ef76b9f6, type: 3}
+  cost: 100
+  minSpeed: 1
+  maxSpeed: 3
+  maxHunger: 140
+  hungerRate: 1
+  affectionRate: 2
+  baseSellPrice: 50
