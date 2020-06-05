@@ -20,5 +20,5 @@ public class BasicFish : ScriptableObject
 
     public int baseSellPrice;
 
-    public enum Personalities { Gay, Creative, Angry, Energetic, Nerdy};
+    public enum Personalities { Queer, Creative, Angry, Energetic, Nerdy};
 }
